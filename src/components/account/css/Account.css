@@ -1,0 +1,32 @@
+.account{
+    margin:32px;
+}
+.account-container{
+    display:grid;
+    grid-template-columns: 4fr 1fr;
+    margin:12px;
+    border-collapse: collapse;
+    height:100px;
+    align-content: center;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,0.75);
+    transition: 0.2 all ease-in;
+}
+.link-account{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin:12px;
+    border-collapse: collapse;
+    height:100px;
+    align-content: center;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    transition: 0.2 all ease-in;
+    color:#252525;
+}
+.link-account:hover{
+    background:#ccc;
+}

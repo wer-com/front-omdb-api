@@ -1,0 +1,30 @@
+.signup{
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.15);
+    width:400px;
+    margin:32px auto;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    padding:18px 18px;
+    text-transform: uppercase;
+    color:rgba(0,0,0,0.45);
+}
+hr{
+    margin:0 18px;
+}
+.form-container{
+    padding:18px 0;
+}
+.signup-input-div{
+    margin:36px 18px;
+}
+.signup-input{
+    width:100%;
+}
+.signup-button{
+    width:100%;
+    height:56px;
+}
+.signup-button-div{
+    margin:18px 18px;
+}

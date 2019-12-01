@@ -1,0 +1,43 @@
+.navigation{
+    width:100%;
+    max-height: 10vh;
+    background:#252525;
+    display:flex;
+    justify-content:space-around;
+}
+.logo{
+    font-weight:bold;
+    padding:32px;
+    color:#fff;
+    font-size:32px;
+}
+ul{
+    display:flex;
+    height:100%;
+}
+ul li{
+    padding:32px;
+    list-style-type: none;
+    font-size:22px;
+    height:100%;
+    position: relative;
+}
+ul li::after{
+    position: absolute;
+    content:'';
+    width:0%;
+    height:2px;
+    background:red;
+    bottom:0;
+    left:0;
+    transition: 0.3s all ease-in;
+}
+ul li:hover::after{
+    width:100%;
+    transition: 0.3s all ease-in;
+}
+a{
+    color:#fff;
+    text-decoration: none;
+}
+

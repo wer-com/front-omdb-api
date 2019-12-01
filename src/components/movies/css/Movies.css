@@ -1,0 +1,46 @@
+
+.movie-container, .title-movie-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin:12px;
+    border-collapse: collapse;
+    height:100px;
+    align-content: center;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,0.75);
+    transition: 0.2 all ease-in;
+}
+
+.movie-container:hover{
+    background:#ccc;
+}
+
+.title-movie-container div{
+    font-weight:bold;
+    font-size:24px;
+}
+
+.poster{
+    height:100px;
+}
+.movies{
+    margin:32px;
+}
+.link{
+    color:#252525;
+}
+
+.movie-movie-container{
+    margin:12px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.movie-movie-container img{
+    height:300px;
+}
+.movie-movie-container div div{
+    margin:12px;
+}
